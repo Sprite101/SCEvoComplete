@@ -677,7 +677,7 @@ Button/Tooltip/ArbiterSCBWCloakField=使<s val="TooltipHighlightSCBW"><d stringr
 Button/Tooltip/ArbiterSCBWEnergyUpgrade=<s val="TooltipHighlightSCBW"><d stringref="Unit,ArbiterSCBW,Name"/></s>的能量提高<s val="TooltipBuffSCBW"><d stringref="Upgrade,ArbiterSCBWEnergyUpgrade,EffectArrayTemplate[1].Value"/></s>点，起始能量提高<s val="TooltipBuffSCBW"><d stringref="Upgrade,ArbiterSCBWEnergyUpgrade,EffectArrayTemplate[0].Value"/></s>点。
 Button/Tooltip/ArbiterSCBWRecall=将目标区域内的所有友军单位传送到<s val="TooltipHighlightSCBW"><d stringref="Unit,ArbiterSCBW,Name"/></s>所在位置。
 Button/Tooltip/ArbiterSCBWRecallResearch=让<s val="TooltipHighlightSCBW"><d stringref="Unit,ArbiterSCBW,Name"/></s>可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,ArbiterSCBWRecall,Name"/></s>技能。
-Button/Tooltip/ArbiterSCBWStasisField=使目标区域内的敌人陷入静滞状态，持续<s val="TooltipHighlightSCBW"><d ref="Behavior,ArbiterSCBWStasisField,Duration"/></s>秒。静滞状态下的单位无法攻击、移动、被攻击或受任何技能影响。可以使隐形和潜地的单位显形。
+Button/Tooltip/ArbiterSCBWStasisField=使目标区域内的单位陷入静滞状态，持续<s val="TooltipHighlightSCBW"><d ref="Behavior,ArbiterSCBWStasisField,Duration"/></s>秒。静滞状态下的单位无法攻击、移动、被攻击或受任何技能影响。可以使隐形和潜地的单位显形。
 Button/Tooltip/ArbiterSCBWStasisFieldResearch=让<s val="TooltipHighlightSCBW"><d stringref="Unit,ArbiterSCBW,Name"/></s>可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,ArbiterSCBWStasisField,Name"/></s>技能。
 Button/Tooltip/ArbiterTribunalSCBW=为<s val="TooltipHighlightSCBW"><d stringref="Unit,ArbiterSCBW,Name"/></s>提供升级方案。
 Button/Tooltip/ArchonSCBW=强大的灵能战士。<n/><n/><c val="ffff8a">可以对地和对空。</c>
@@ -714,7 +714,7 @@ Button/Tooltip/ComsatStationSCBW=扫描设施。可以使用<s val="TooltipHighl
 Button/Tooltip/ComsatStationSCBWScannerSweep=显示地图的一个区域，侦测隐形或潜地的单位。持续<s val="TooltipHighlightSCBW"><d time="12"/></s>。
 Button/Tooltip/ControlTowerSCBW=空军单位研究设施。<s val="TooltipHighlightSCBW"><d stringref="Unit,ControlTowerSCBW,Name"/></s>只能连接到<s val="TooltipHighlightSCBW"><d stringref="Unit,StarportSCBW,Name"/></s>。<n/><n/><s val="TooltipHighlightSCBW">开启：</s><n/>- 可以在<d stringref="Unit,StarportSCBW,Name"/>中制造<d stringref="Unit,DropshipSCBW,Name"/><n/>- 可以在<d stringref="Unit,StarportSCBW,Name"/>中建造<d stringref="Unit,ValkyrieSCBW,Name"/><n/>- <d stringref="Unit,ScienceFacilitySCBW,Name"/><n/>- 可以在<d stringref="Unit,StarportSCBW,Name"/>中建造<d stringref="Unit,BattlecruiserSCBW,Name"/>
 Button/Tooltip/CorsairSCBW=空优战机。升级后可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,CorsairSCBWDisruptionWeb,Name"/></s>。<n/><n/><c val="ffff8a">可以对空。</c>
-Button/Tooltip/CorsairSCBWDisruptionWeb=在地面上制造一张能量网，使网中的敌方建筑和地面单位无法攻击，持续<s val="TooltipBuffSCBW"><d ref="Effect,CorsairSCBWDisruptionWeb@CP,PeriodCount*Effect,CorsairSCBWDisruptionWeb@CP,PeriodicPeriodArray[0]"/></s>秒。
+Button/Tooltip/CorsairSCBWDisruptionWeb=在地面上制造一张能量网，使网中的建筑和地面单位无法攻击，持续<s val="TooltipBuffSCBW"><d ref="Effect,CorsairSCBWDisruptionWeb@CP,PeriodCount*Effect,CorsairSCBWDisruptionWeb@CP,PeriodicPeriodArray[0]"/></s>秒。
 Button/Tooltip/CorsairSCBWDisruptionWebResearch=让<s val="TooltipHighlightSCBW"><d stringref="Unit,CorsairSCBW,Name"/></s>可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,CorsairSCBWDisruptionWeb,Name"/></s>技能。
 Button/Tooltip/CorsairSCBWEnergyUpgrade=<s val="TooltipHighlightSCBW"><d stringref="Unit,CorsairSCBW,Name"/></s>的能量提高<s val="TooltipBuffSCBW"><d stringref="Upgrade,CorsairSCBWEnergyUpgrade,EffectArrayTemplate[1].Value"/></s>点，起始能量提高<s val="TooltipBuffSCBW"><d stringref="Upgrade,CorsairSCBWEnergyUpgrade,EffectArrayTemplate[0].Value"/></s>点。
 Button/Tooltip/CovertOpsSCBW=专精单位研究设施。为<s val="TooltipHighlightSCBW"><d stringref="Unit,GhostSCBW,Name"/></s>提供升级方案。<s val="TooltipHighlightSCBW"><d stringref="Unit,CovertOpsSCBW,Name"/></s>只能连接到<s val="TooltipHighlightSCBW"><d stringref="Unit,ScienceFacilitySCBW,Name"/></s>。<n/><n/><s val="TooltipHighlightSCBW">开启：</s><n/>- <d stringref="Unit,GhostSCBW,Name"/>
@@ -728,7 +728,7 @@ Button/Tooltip/DarkArchonSCBWMaelstrom=创造一股强大的灵能波，击晕�
 Button/Tooltip/DarkArchonSCBWMaelstromResearch=让<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkArchonSCBW,Name"/></s>可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,DarkArchonSCBWMaelstrom,Name"/></s>技能。
 Button/Tooltip/DarkArchonSCBWMerge@Selection=<s val="TooltipHighlightSCBW">2</s>名<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkTemplarSCBW,Name"/></s>牺牲自身，融合为一名<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkArchonSCBW,Name"/></s>。
 Button/Tooltip/DarkArchonSCBWMerge@Target=<s val="TooltipHighlightSCBW">2</s>名<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkTemplarSCBW,Name"/></s>牺牲自身，融合为一名<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkArchonSCBW,Name"/></s>。
-Button/Tooltip/DarkArchonSCBWMindControl=永久控制目标敌方单位。<n/><n/><c val="#ColorAttackInfo">英雄单位对此免疫。</c>
+Button/Tooltip/DarkArchonSCBWMindControl=永久控制目标敌方单位。<n/>施法单位的护盾将在施放后耗尽。<n/><n/><c val="#ColorAttackInfo">英雄单位对此免疫。</c>
 Button/Tooltip/DarkArchonSCBWMindControlResearch=让<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkArchonSCBW,Name"/></s>可以使用<s val="TooltipHighlightSCBW"><d stringref="Abil,DarkArchonSCBWMindControl,Name"/></s>技能。
 Button/Tooltip/DarkTemplarSCBW=致命的近战杀手。永久隐形。可融合为<s val="TooltipHighlightSCBW"><d stringref="Unit,DarkArchonSCBW,Name"/></s>。<n/><n/><c val="ffff8a">可以对地。</c>
 Button/Tooltip/DefilerMoundSCBW=为<s val="TooltipHighlightSCBW"><d stringref="Unit,DefilerSCBW,Name"/></s>提供升级方案。<n/><n/><s val="TooltipHighlightSCBW">开启：</s><n/>- <d stringref="Unit,LarvaSCBW,Name"/>可以变异为<d stringref="Unit,DefilerSCBW,Name"/>
@@ -2323,9 +2323,9 @@ Button/Name/GreaterSpireSCBW=变异为巨型尖塔
 Error/MustTargetBiologicalOrMechanicalUnits=必须以生物或机械单位为目标
 Weapon/Tip/ConcussiveWeapon=<s val="@@StandardTooltip">类型：<c val="FFFFFF">震荡</c></s>
 Weapon/Tip/ExplosiveWeapon=<s val="@@StandardTooltip">类型：<c val="FFFFFF">爆裂</c></s>
-UI/KopruluMenu/ClassicIcons=经典图标
 UI/KopruluMenu/Discord=Discord
 UI/KopruluMenu/Skins=皮肤
+UI/KopruluMenu/ClassicIcons=经典图标
 UI/KopruluMenu/ClassicIcons_Tip=仅对SC1种族生效。关闭该选项将于下一局游戏生效。
 Skin/Info/NexusSCBW@Aiur=母巢之战后，达拉姆星灵派出了大量相位技师，用最新的时空扭曲技术改造旧式星灵枢纽。
 Skin/Name/NexusSCBW@Aiur=艾尔星灵枢纽
