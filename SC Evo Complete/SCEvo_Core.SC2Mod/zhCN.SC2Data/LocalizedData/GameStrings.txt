@@ -2323,11 +2323,11 @@ Button/Name/GreaterSpireSCBW=变异为巨型尖塔
 Error/MustTargetBiologicalOrMechanicalUnits=必须以生物或机械单位为目标
 Weapon/Tip/ConcussiveWeapon=<s val="@@StandardTooltip">类型：<c val="FFFFFF">震荡</c></s>
 Weapon/Tip/ExplosiveWeapon=<s val="@@StandardTooltip">类型：<c val="FFFFFF">爆裂</c></s>
+UI/KopruluMenu/ClassicIcons=经典图标
 UI/KopruluMenu/Discord=Discord
-UI/KopruluMenu/Skins=Skins
-UI/KopruluMenu/ClassicIcons=Classic Icons
-UI/KopruluMenu/ClassicIcons_Tip=Only for SC1 races, disabling will take effect next game
-Skin/Info/NexusSCBW@Aiur=Following the Brood War, the Daelaam dedicated a great many phase-smiths to retrofit older nexuses with the latest chronal distortion technology.
-Skin/Name/NexusSCBW@Aiur=Aiur Nexus
+UI/KopruluMenu/Skins=皮肤
+UI/KopruluMenu/ClassicIcons_Tip=仅对SC1种族生效。关闭该选项将于下一局游戏生效。
+Skin/Info/NexusSCBW@Aiur=母巢之战后，达拉姆星灵派出了大量相位技师，用最新的时空扭曲技术改造旧式星灵枢纽。
+Skin/Name/NexusSCBW@Aiur=艾尔星灵枢纽
 Behavior/Name/SC1_InShrub=隐蔽
 Behavior/Tooltip/SC1_InShrub=敌方对此单位发动的远程攻击可能丢失。
